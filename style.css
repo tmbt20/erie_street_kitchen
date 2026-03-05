@@ -1,0 +1,405 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Puritan", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #231F20;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: "Puritan", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #231F20;
+    font-size: 24px;
+}
+
+h6 {
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #231F20;
+    font-size: 12px;
+}
+
+p {
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #231F20;
+    font-size: 22px;
+}
+
+hr {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 101px;
+    border: none;
+    border-top: 1px solid #231F20;
+}
+
+
+/* NAV */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #231F20;
+    padding: 15px;
+}
+
+.navtext {
+    font-family: "Puritan", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    padding-left: 20px;
+    align-content: center;
+    font-size: 24px;
+}
+
+.navlogo {
+    width: 85px;
+}
+
+nav a {
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    align-content: center;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    filter: brightness(0.75);
+    text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: flex-end;
+    margin-top: 8px;
+    gap: 15px;
+    align-content: center;
+    width: 
+}
+
+.instalogo {
+    width: 36px;
+}
+
+.facebooklogo {
+    width: 24px;
+}
+
+
+@media(max-width: 560px) {
+    
+    .navtext a {
+        font-size: 18px;
+    }
+
+    .navlogo {
+    width: 50px;
+    }
+
+    .socials {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: flex-end;
+    margin-top: 8px;
+    gap: 15px;
+    align-content: center;
+    }
+
+    .instalogo {
+    width: 28px;
+    }
+
+    .facebooklogo {
+        width: 18px;
+    }
+    
+}
+
+/* FOOTER */
+footer {
+    display: block;
+    font-family: "Puritan", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #231F20;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/* HOME */
+.home1container {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.home2container {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.home3container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #231F20;
+}
+
+.home4container {
+    display: block;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+.venicetext {
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 48px;
+    margin-right: 7%;
+    text-align: center;
+}
+
+.venicetext a {
+    color: white;
+    text-decoration: none;
+}
+
+.venicetext a :hover {
+    filter: brightness(.75);
+}
+
+.venicelogo {
+    margin-left: 7%;
+    max-width: 405px;
+}
+
+.left a :hover {
+    filter: brightness(.75);
+}
+
+.foodimage {
+    width: 100%;
+    max-width: 580px;
+    border-radius: 116px;
+}
+
+.left {
+    text-align: left;
+    margin-right: auto;
+    width: 45%;
+}
+
+.right {
+    text-align: right;
+    margin-left: auto;
+    width: 45%;
+}
+
+@media (max-width: 1300px) {
+
+    .home1container {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    
+    .home2container {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    align-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+
+    .home3container {
+    display: block;
+    text-align: center;
+    background-color: #231F20;
+    }
+
+    .home4container {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .left {
+    display: block;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    }
+    
+    .right {
+    padding-top: 50px;
+    display: block;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    }
+
+    .venicetext {
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+    .venicelogo {
+    max-width: 300px;
+    margin: 0;
+    }
+
+}
+
+
+/* MENU */
+.menucontainer {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-content: flex-start;
+    border-right: 1px solid #231F20;
+}
+
+.menuleft {
+    text-align: left;
+    margin-right: auto;
+    width: 45%;
+    border-left: 1px solid #231F20;
+    padding: 25px;
+    padding-bottom: auto;
+}
+
+.menuleft hr {
+    margin: 0;
+    border: 1px solid #231F20;
+    border-radius: 100px;
+}
+
+.menuright {
+    text-align: left;
+    margin-left: auto;
+    width: 50%;
+    border-left: 1px solid #231F20;
+    padding-left: 10px;
+    padding: 25px;
+    padding-bottom: auto;
+}
+
+.menuright hr {
+    margin: 0;
+    border: 1px solid #231F20;
+    border-radius: 100px;
+}
+
+.gf {
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #231F20;
+    font-size: 12px;
+}
+
+.extra {
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #231F20;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.price {
+    font-family: "Puritan", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #231F20;
+    font-size: 18px;
+}
+
+.menucontainer u {
+    text-decoration: underline solid 2px #231F20;
+}
+
+.menukeycontainer {
+    text-align: center;
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #231F20;
+    font-size: 14px;
+}
+
+.menukeycontainer hr {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+    .menucontainer {
+    display: block;
+    }
+
+    .menuleft {
+    width: 100%;
+    padding-bottom: 100px;
+    }
+
+    .menuright {
+    width: 100%;
+    padding-bottom: 100px;
+    }
+
+    .menukeycontainer hr {
+    margin: 0 5%;
+    }
+}
+
+
+/* MISC */
+.center {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
