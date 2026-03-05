@@ -133,6 +133,32 @@ nav a:hover {
     
 }
 
+@media(max-width: 460px) {
+    
+    .navtext a {
+        font-size: 14px;
+    }
+
+    .socials {
+    display: flex;
+    margin-left: auto;
+    margin-right: 8px;
+    justify-content: flex-end;
+    margin-top: 8px;
+    gap: 10px;
+    align-content: center;
+    }
+
+    .instalogo {
+    width: 24px;
+    }
+
+    .facebooklogo {
+        width: 14px;
+    }
+    
+}
+
 /* FOOTER */
 footer {
     display: block;
